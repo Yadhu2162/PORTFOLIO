@@ -180,12 +180,12 @@
                 <p>Analyzed the legal implications of deceptive UI design practices in Indian and EU digital laws, highlighting Planet49 and India’s 2023 Guidelines.</p>
             </div>
             <div class="project-item">
-                <img src="project2.jpg" alt="Blockchain IPR Project" style="width:100%; border-radius:8px; margin-bottom:10px;">
+                <img src="https://images.unsplash.com/photo-1750081761691-0a76288c4786?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Blockchain IPR Project" style="width:100%; border-radius:8px; margin-bottom:10px;">
                 <h3>Blockchain for IPR Management</h3>
                 <p>Researched blockchain solutions for copyright and patent management, ensuring transparency and traceability in rights enforcement.</p>
             </div>
             <div class="project-item">
-                <img src="project3.jpg" alt="AI Compliance Project" style="width:100%; border-radius:8px; margin-bottom:10px;">
+                <img src="(https://images.unsplash.com/photo-1750081761691-0a76288c4786?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)" alt="AI Compliance Project" style="width:100%; border-radius:8px; margin-bottom:10px;">
                 <h3>AI & Data Protection Compliance</h3>
                 <p>Developed a compliance framework for large language models across GDPR, India DPDP Act, and other international regulations.</p>
             </div>
