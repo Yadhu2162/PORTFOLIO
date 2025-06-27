@@ -9,7 +9,7 @@
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
       background: linear-gradient(to right, #000, #777);
-      color: black;
+      color: red;
     }
     header {
       background: #154de8;
