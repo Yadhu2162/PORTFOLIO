@@ -195,13 +195,12 @@
 
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:yadhu.krishna.law@gmail.com">yadhu.krishna.law@gmail.com</a></p>
-        <p>Alternate Email: <a href="mailto:yadhukrishna4maiil@gmail.com">yadhukrishna4maiil@gmail.com</a></p>
-        <p>Phone: +91 7356376050</p>
+        <p>Email: <a href="mailto:yadhukrishna4mail@gmail.com">yadhukrishna4mail@gmail.com</a></p>
+               <p>Phone: +91 7356376050</p>
         <div class="social-icons">
             <a href="https://github.com/yadhukrishna" target="_blank"><i class="fab fa-github"></i></a>
             <a href="https://linkedin.com/in/yadhukrishna" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="mailto:yadhu.krishna.law@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="mailto:yadhukrishna4mail@gmail.com"><i class="fas fa-envelope"></i></a>
         </div>
     </section>
 
