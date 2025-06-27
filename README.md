@@ -8,7 +8,7 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #000, #333);
+      background: linear-gradient(to right, #000, #777);
       color: black;
     }
     header {
@@ -36,7 +36,7 @@
       justify-content: center;
     }
     .project-card {
-      background: #222;
+      background: #999;
       padding: 1rem;
       border-radius: 8px;
       width: 250px;
