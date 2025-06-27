@@ -155,7 +155,7 @@
 
 <body>
     <header>
-        <img src="approach-a9.jpg" alt="Yadhu Krishna Profile Photo">
+        <img src="https://images.unsplash.com/photo-1750081761691-0a76288c4786?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Yadhu Krishna Profile Photo">
         <h1>Yadhu Krishna A S</h1>
         <p>Law Graduate | Technology Law & Data Privacy Enthusiast</p>
     </header>
@@ -175,7 +175,7 @@
         <h2>Projects</h2>
         <div class="project-grid">
             <div class="project-item">
-                <img src="approach-a9.jpg" alt="Dark Patterns Project" style="width:100%; border-radius:8px; margin-bottom:10px;">
+                <img src="https://images.unsplash.com/photo-1750081761691-0a76288c4786?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Dark Patterns Project" style="width:100%; border-radius:8px; margin-bottom:10px;">
                 <h3>Dark Patterns & User Rights</h3>
                 <p>Analyzed the legal implications of deceptive UI design practices in Indian and EU digital laws, highlighting Planet49 and India’s 2023 Guidelines.</p>
             </div>
