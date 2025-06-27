@@ -8,11 +8,11 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #111, #333);
-      color: white;
+      background: linear-gradient(to right, #000, #333);
+      color: black;
     }
     header {
-      background: #1e1e1e;
+      background: #154de8;
       padding: 2rem;
       text-align: center;
     }
