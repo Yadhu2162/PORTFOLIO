@@ -1,91 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yadhu Krishna | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yadhu | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #111, #333);
+      color: white;
+    }
+    header {
+      background: #1e1e1e;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #00ffd5;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #ddd;
+      text-decoration: none;
+    }
+    section {
+      padding: 3rem;
+    }
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .project-card {
+      background: #222;
+      padding: 1rem;
+      border-radius: 8px;
+      width: 250px;
+      box-shadow: 0 0 10px rgba(0,255,213,0.2);
+    }
+  </style>
 </head>
-
 <body>
-  <!-- Header -->
-  <header class="header" id="home">
-    <div class="header__text-box">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <span>Yadhu Krishna</span>
-        </h1>
-        <p>Developer & Privacy Enthusiast from India</p>
-        <a href="#contact" class="btn btn--pink">Say Hello</a>
-      </div>
-    </div>
+  <header>
+    <h1>Hi, I'm Yadhu</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
-
-  <!-- Work Section -->
-  <section class="work" id="work">
-    <div class="row">
-      <h2>My Projects</h2>
-      <div class="work__box">
-        <div class="work__text">
-          <h3>Minimal Portfolio</h3>
-          <p>A lightweight portfolio site using only HTML, CSS, and JS.</p>
-          <ul class="work__list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-          </ul>
-          <div class="work__links">
-            <a href="#" class="link__text">Visit Site <span>&rarr;</span></a>
-            <a href="https://github.com/yadhu-krishna/portfolio" target="_blank">
-              <img src="./images/github.svg" class="work__code" alt="GitHub">
-            </a>
-          </div>
-        </div>
-        <div class="work__image-box">
-          <img src="./images/project-1.png" class="work__image" alt="Portfolio Screenshot">
-        </div>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>A passionate developer creating awesome things.</p>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>Description goes here</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>Description goes here</p>
       </div>
     </div>
   </section>
-
-  <!-- About Section -->
-  <section class="about" id="about">
-    <div class="row">
-      <h2>About Me</h2>
-      <div class="about__content">
-        <div class="about__text">
-          <p>I’m currently pursuing an LLM in Data Privacy & IT. I enjoy building clean user interfaces and learning about digital rights and ethical tech.</p>
-          <a href="./resume.pdf" class="btn">My Resume</a>
-        </div>
-        <div class="about__photo-container">
-          <img class="about__photo" src="./images/yadhu.jpg" alt="Yadhu Krishna">
-        </div>
-      </div>
-    </div>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: yourname@example.com</p>
   </section>
-
-  <!-- Contact Section -->
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>Want to collaborate, talk privacy, or say hi? Drop me a message and I’ll get back soon!</p>
-        <a href="mailto:yadhu@example.com" class="btn">yadhu@example.com</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="row">
-      <ul class="footer__social-links">
-        <li><a href="https://github.com/yadhu-krishna"><img src="./images/github.svg" alt="GitHub"></a></li>
-        <li><a href="https://linkedin.com/in/yadhu-krishna"><img src="./images/linkedin.svg" alt="LinkedIn"></a></li>
-      </ul>
-      <p>&copy; 2025 - Built by Yadhu Krishna.</p>
-    </div>
-  </footer>
 </body>
-
 </html>
