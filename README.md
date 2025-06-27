@@ -1,30 +1,35 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Yadhu | Creative Developer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <title>Yadhu | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #0f0f0f;
-      --accent: #03dac6;
-      --text: #e0e0e0;
+      --primary: #2b2d42;
+      --accent: #ef476f;
+      --bg: #f7f9fc;
+      --text: #2b2d42;
     }
     * {
-      box-sizing: border-box;
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
     }
     body {
+      font-family: 'Inter', sans-serif;
       background: var(--bg);
-      font-family: 'Poppins', sans-serif;
       color: var(--text);
-      line-height: 1.6;
     }
     header {
-      padding: 4rem 2rem;
+      padding: 2rem;
       text-align: center;
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      animation: slideIn 1s ease-out forwards;
     }
     header h1 {
       font-size: 3rem;
@@ -32,61 +37,77 @@
     }
     nav {
       margin-top: 1rem;
+      animation: fadeIn 1.5s ease-out forwards;
     }
     nav a {
-      color: var(--text);
-      text-decoration: none;
       margin: 0 1rem;
-      transition: color 0.3s;
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: 600;
+      position: relative;
     }
-    nav a:hover {
-      color: var(--accent);
+    nav a::after {
+      content: '';
+      display: block;
+      width: 0%;
+      height: 2px;
+      background: var(--accent);
+      transition: width 0.3s;
     }
-    .hero {
-      display: grid;
-      place-items: center;
-      padding: 5rem 2rem;
-      background: #1a1a1a;
+    nav a:hover::after {
+      width: 100%;
     }
-    .hero h2 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
-    .hero p {
-      max-width: 600px;
-      text-align: center;
-    }
-    .projects {
+    section {
       padding: 4rem 2rem;
-      background: #111;
+      max-width: 900px;
+      margin: auto;
+      opacity: 0;
+      transform: translateY(50px);
+      animation: fadeSlideIn 1s forwards;
     }
-    .projects h2 {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    .grid {
+    section:nth-of-type(2) { animation-delay: 0.3s; }
+    section:nth-of-type(3) { animation-delay: 0.6s; }
+
+    .projects {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 2rem;
     }
-    .card {
-      background: #222;
+    .project {
+      background: white;
       padding: 1.5rem;
       border-radius: 12px;
-      transition: transform 0.2s;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
     }
-    .card:hover {
+    .project:hover {
       transform: translateY(-5px);
-      box-shadow: 0 4px 20px rgba(3,218,198,0.2);
     }
     footer {
-      padding: 2rem;
       text-align: center;
+      padding: 2rem;
       font-size: 0.9rem;
+      color: #666;
+    }
+
+    @keyframes slideIn {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes fadeSlideIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Yadhu</h1>
     <nav>
@@ -95,25 +116,34 @@
       <a href="#contact">Contact</a>
     </nav>
   </header>
-  <section class="hero" id="about">
-    <h2>Crafting Digital Experiences</h2>
-    <p>I’m a creative front-end developer from Kerala, India, turning code into beautiful, user-focused designs.</p>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Yadhu — a front-end developer and creative technologist bringing simplicity and elegance to the web.</p>
   </section>
-  <section class="projects" id="projects">
-    <h2>Selected Projects</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Smart Portfolio</h3>
-        <p>A dynamic web portfolio powered by GitHub and modern tech stack.</p>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Interactive Resume</h3>
+        <p>A résumé site with micro-interactions and printable sections.</p>
       </div>
-      <div class="card">
-        <h3>Responsive UI Kit</h3>
-        <p>Reusable components with interactive UX and minimalist design.</p>
+      <div class="project">
+        <h3>UI Toolkit</h3>
+        <p>Lightweight CSS components you can plug into any project.</p>
       </div>
     </div>
   </section>
-  <footer id="contact">
-    <p>📧 Connect with me: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Yadhu. Designed with ❤️ using HTML & CSS.</p>
   </footer>
+
 </body>
 </html>
